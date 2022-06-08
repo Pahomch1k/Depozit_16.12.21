@@ -1,0 +1,119 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 475, 141
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,51,19,136,14,ES_AUTOHSCROLL
+    LTEXT           "ФИО",IDC_STATIC,20,21,16,8
+    LTEXT           "Сумма",IDC_STATIC,21,44,22,8
+    LTEXT           "%",IDC_STATIC,21,65,8,8
+    EDITTEXT        IDC_EDIT2,51,41,136,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,51,63,19,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Сохранить",IDC_BUTTON1,21,94,50,14
+    EDITTEXT        IDC_EDIT4,297,19,150,38,ES_MULTILINE | ES_AUTOHSCROLL
+    LTEXT           "Полученные ",IDC_STATIC,245,20,45,8
+    LTEXT           "данные",IDC_STATIC,245,30,27,8
+    LTEXT           "Расчет",IDC_STATIC,245,74,24,8
+    EDITTEXT        IDC_EDIT5,297,72,150,14,ES_AUTOHSCROLL
+    LTEXT           "Файл",IDC_STATIC,245,102,18,8
+    EDITTEXT        IDC_EDIT6,297,99,150,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Считать из файла",IDC_BUTTON2,111,95,75,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 468
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
